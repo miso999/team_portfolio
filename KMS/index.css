@@ -24,7 +24,7 @@ header {
   position: fixed;
 }
 
-* {
+.header {
   font-family: "SBAggroB";
 }
 
