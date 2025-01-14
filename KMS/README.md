@@ -24,4 +24,4 @@ https://github.com/miso999/team_portfolio
 
 - 김미소 (https://github.com/miso999)
 - 이지헌 (https://github.com/jiheon0928)
-- 최은서(EUNSEO78)
+- 최은서(https://github.com/EUNSEO78)
