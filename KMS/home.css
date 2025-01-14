@@ -1,33 +1,3 @@
-* {
-  font-family: "SBAggroB";
-}
-
-.lesserafim {
-  width: 100vw;
-  display: flex;
-  justify-content: center;
-}
-
-.header {
-  width: 100%;
-  height: 70px;
-  max-width: 400px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  justify-content: space-between;
-  padding: 10px;
-}
-
-.logo > img {
-  width: 35px;
-}
-.bar {
-  border: none;
-  font-size: 30px;
-  background-color: white;
-}
-
 .layout {
   width: 100vw;
   max-width: 400px;

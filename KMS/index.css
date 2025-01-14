@@ -24,10 +24,6 @@ header {
   position: fixed;
 }
 
-* {
-  font-family: "SBAggroB";
-}
-
 .lesserafim {
   width: 100vw;
   display: flex;
