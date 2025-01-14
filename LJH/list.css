@@ -1,0 +1,7 @@
+.lesserafimpage_list {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  color: gray;
+  font-weight: 700;
+}
