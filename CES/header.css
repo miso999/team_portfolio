@@ -23,6 +23,6 @@ nav {
 
 nav > .bar {
   border: none;
-  background-color: white;
+  background-color: var(--color-primary);
   font-size: 30px;
 }

@@ -1,0 +1,18 @@
+:root {
+  /* 기본 메인 컬러  */
+  --color-primary: #fff;
+  --color-primary-black: #171717;
+}
+
+:root {
+  /* 서브 보조 컬러 */
+  --color-secondary-red: #b51122;
+  --color-secondary-gray: #999999;
+}
+
+:root {
+  /* 회색 계열  */
+  --gray-0: #888;
+  --gray-1: #8888881f;
+  --gray-2: #8888886b;
+}
