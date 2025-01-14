@@ -1,0 +1,79 @@
+* {
+  font-family: "SBAggroB";
+}
+
+.lesserafim {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  width: 100%;
+  height: 70px;
+  max-width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.logo > img {
+  width: 35px;
+}
+.bar {
+  border: none;
+  font-size: 30px;
+  background-color: white;
+}
+
+.container {
+  width: 500px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  border-color: grey;
+  border: 1px solid grey;
+  background-color: black;
+}
+
+.container > .box {
+  width: 100%;
+  max-width: 1300px;
+  padding: 50px;
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  gap: 30px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+  color: grey;
+}
+
+.container > .box > .intro {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  font-size: 13px;
+}
+
+.container > .box > .recruit {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  font-size: 13px;
+}
+
+.container > .box2 {
+  width: 1000px;
+  height: 10px;
+}
+
+.container > .box2 > img {
+  width: 40%;
+  height: 100px;
+  margin-top: 500px;
+}

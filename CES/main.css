@@ -1,0 +1,156 @@
+.audition__main {
+  width: 400px;
+  margin: 0 auto;
+
+  background-color: black;
+  background-image: url("audition_bgimage.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.audition__con {
+  width: 100%;
+  max-width: 371px;
+  margin: 0 auto;
+  padding-top: 114px;
+  color: white;
+}
+
+.audition__con > h2 {
+  font-size: 44px;
+  line-height: 44px;
+
+  margin-bottom: 80px;
+}
+
+.audition_info {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.audition_info-box {
+  padding: 20px 0px;
+  /* line-height: 30px; */
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.icon {
+  width: 18px;
+  height: 20px;
+}
+
+.icon > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.title {
+  font-size: 19px;
+  font-weight: bold;
+}
+
+.desc {
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.audition_rowbox {
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+
+  margin-bottom: 90px;
+}
+
+.audition_rowbox-col {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+
+  color: black;
+}
+
+.audition-apply {
+  width: 100%;
+  padding: 8px 0px;
+
+  background-color: white;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.audition-apply > strong {
+  font-size: 20px;
+  color: #b51122;
+}
+
+.audition-apply > span {
+  font-size: 17px;
+}
+
+.audition_faq {
+  display: flex;
+  flex-direction: column;
+
+  padding-bottom: 120px;
+}
+
+.audition_faq > h2 {
+  font-size: 55px;
+  font-weight: 900;
+
+  padding: 30px 0px;
+  border-bottom: 1px solid #999999;
+}
+
+.audition_faq-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.audition_faq-list > li {
+  padding: 25px 0px;
+
+  border-bottom: 1px solid #999999;
+}
+
+.question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  color: #999999;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.answerBlur {
+  display: none;
+  padding-top: 20px;
+
+  color: white;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.audition_faq-list > li:hover {
+  .answerBlur {
+    display: block;
+    font-size: 16px;
+  }
+  .question > span {
+    color: white;
+  }
+}
+
+.audition_faq-warn {
+  margin-top: 10px;
+
+  font-weight: 600;
+  line-height: 20px;
+}
