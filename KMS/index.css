@@ -24,13 +24,10 @@ header {
   position: fixed;
 }
 
-<<<<<<< HEAD
 .header {
   font-family: "SBAggroB";
 }
 
-=======
->>>>>>> cafc92cd354a168cb0894f0aea5c343d91ac7846
 .lesserafim {
   width: 100vw;
   display: flex;
